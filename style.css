@@ -197,7 +197,7 @@ body.portrait #dark-overlay {
 }
 body.landscape-warning-active #container canvas,
 body.portrait #container canvas {
-  filter: blur(12px) brightness(0.5) grayscale(0.3);
+  filter: blur(12px) brightness(0.2) grayscale(0.3);
   opacity: 0.3;
   transition: filter 0.7s, opacity 0.7s cubic-bezier(.4,2,.6,1);
 }
